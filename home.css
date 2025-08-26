@@ -3,8 +3,8 @@ body{
   padding:0px;
 }
 h1{
-  text-shadow: 0 2px 0 2px rgb(125, 33, 44),0 4px 0 4px rgb(137, 73, 17),
-    0 6px 0 6px rgb(53, 92, 28), 0 8px 0 8px rgb(31, 57, 101);
+  text-shadow: 0 2px 0 rgb(125, 33, 44),0 4px 0 rgb(137, 73, 17),
+    0 6px 0 rgb(53, 92, 28), 0 8px 0 rgb(31, 57, 101);
   text-align:center;
   color:white;
   font-size: 32px;
