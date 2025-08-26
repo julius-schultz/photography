@@ -3,12 +3,11 @@ body{
   padding:0px;
 }
 h1{
-  text-shadow: 0 3px 0 rgb(193, 72, 15),0 6px 0 rgb(185, 133, 11),
-    0 9px 0 rgb(115, 170, 1), 0 12px 0 rgb(2, 120, 149),
-    0 15px 0 rgb(58, 0, 163);
+  text-shadow: 0 2px 0 2px rgb(125, 33, 44),0 4px 0 4px rgb(137, 73, 17),
+    0 6px 0 6px rgb(53, 92, 28), 0 8px 0 8px rgb(31, 57, 101);
   text-align:center;
   color:white;
-  font-size: 48px;
+  font-size: 32px;
   font-family:'Courier New', Courier, monospace;
 }
 .div-title {
@@ -57,9 +56,9 @@ li a:hover{
 .div-status{
   display:flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-left: 280px;
-  margin-right: 280px;
+  justify-content: center;
+  margin-left: 16px;
+  margin-right: 16px;
   align-items: center;
 }
 .status p{
