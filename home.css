@@ -47,14 +47,12 @@ li a:hover{
     rgba(0, 0, 0, 0.2),rgba(255, 255, 255, 0.2));
   margin:16px;
 }
-p{
+.intro p{
   text-align: center;
   color:white;
   font-size: 18px;
   font-family:'Courier New', Courier, monospace;
-}
-.intro{
-  height: 90px;
+  margin-bottom: 4px;
 }
 .div-status{
   display:flex;
@@ -71,7 +69,8 @@ p{
   color:white;
   font-size: 30px;
   font-family:'Courier New', Courier, monospace;
-  height:10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 .tip p{
   text-align: center;
