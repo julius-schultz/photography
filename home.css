@@ -57,17 +57,23 @@ li a:hover{
 .div-status{
   display:flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin-left:250px;
-  margin-right:250px;
+  justify-content: space-between;
+  margin-left: 280px;
+  margin-right: 280px;
+  align-items: center;
 }
-.div-status p{
+.status p{
+  color:rgb(245, 172, 89);
+  font-size:14px;
+  font-family:'Courier New', Courier, monospace;
+}
+.r-stars,.l-stars{
   color:rgb(245, 172, 89);
 }
 .highl p{
   text-align: center;
   color:white;
-  font-size: 30px;
+  font-size: 32px;
   font-family:'Courier New', Courier, monospace;
   margin-top: 16px;
   margin-bottom: 16px;
