@@ -1,0 +1,103 @@
+body{
+  background:linear-gradient(to bottom, rgb(33, 40, 36),rgb(7, 66, 49));
+  padding:0px;
+}
+h1{
+  text-shadow: 0 3px 0 rgb(193, 72, 15),0 6px 0 rgb(185, 133, 11),
+    0 9px 0 rgb(115, 170, 1), 0 12px 0 rgb(2, 120, 149),
+    0 15px 0 rgb(58, 0, 163);
+  text-align:center;
+  color:white;
+  font-size: 48px;
+  font-family:'Courier New', Courier, monospace;
+}
+.div-title {
+  border:12px ridge rgba(255, 255, 255, 0.3);
+  background:linear-gradient(to bottom,
+    rgba(0, 0, 0, 0.2),rgba(255, 255, 255, 0.2));
+  margin:16px;
+}
+ul{
+  background:linear-gradient(to bottom,
+    rgba(0, 0, 0, 0.2),rgba(255, 255, 255, 0.2));
+  list-style-type: none;
+  text-align: center;
+  margin:16px;
+  padding: 0;
+}
+li {
+  display:inline;
+  padding:16px;
+}
+li a{
+  color:white;
+  font-size: 16px;
+  font-family:'Courier New', Courier, monospace;
+}
+li a:hover{
+  color:cyan;
+  font-size: 20px;
+  font-weight: 600;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.div-intro {
+  border:12px ridge rgba(255, 255, 255, 0.3);
+  background:linear-gradient(to top,
+    rgba(0, 0, 0, 0.2),rgba(255, 255, 255, 0.2));
+  margin:16px;
+}
+p{
+  text-align: center;
+  color:white;
+  font-size: 20px;
+  font-family:'Courier New', Courier, monospace;
+}
+.intro{
+  height: 90px;
+}
+.div-status{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left:200px;
+  margin-right:200px;
+}
+.column{
+  float:left;
+  width: 20%;
+  padding: 10px;
+}
+.column img{
+  border:4px inset rgb(255, 255, 255,0.5);
+  cursor:pointer;
+}
+.column img:hover{
+  border:4px inset rgb(0, 255, 255,0.75);
+}
+.row{
+  display:flex;
+  justify-content: center;
+}
+.row:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+.container{
+  position:relative;
+  display:flex;
+  flex-direction: column;
+  width:95%;
+  margin:16px;
+}
+.container img{
+  border:4px inset rgb(0, 255, 255,0.75);
+}
+#imgtext{
+  text-align: center;
+  color:white;
+  font-size: 14px;
+  font-family:'Courier New', Courier, monospace;
+  padding:4px;
+}
