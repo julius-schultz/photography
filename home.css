@@ -3,22 +3,24 @@ body{
   padding:0px;
 }
 h1{
-  text-shadow: 0 2px 0 rgb(150, 37, 54), 0 4px 0 rgb(137, 73, 17),
-    0 6px 0 rgb(53, 92, 28),0 8px 0 rgb(38, 72, 132);
+  text-shadow:0 4px 3.5px rgb(1, 82, 170),0 8px 3.5px rgb(0, 121, 12),  
+0 12px 3.5px rgb(161, 116, 0),0 14px 3.5px rgb(147, 9, 62);
   text-align:center;
-  color:white;
+  color: rgb(200, 200, 200);
+  letter-spacing: 8px;
   font-size: 32px;
+  font-style: italic;
   font-family:'Courier New', Courier, monospace;
 }
 .div-title {
   border:12px ridge rgba(255, 255, 255, 0.3);
   background:linear-gradient(to bottom,
-    rgba(0, 0, 0, 0.2),rgba(255, 255, 255, 0.2));
+rgba(0, 0, 0, 0.2),rgba(255, 255, 255, 0.2));
   margin:16px;
 }
 ul{
   background:linear-gradient(to bottom,
-    rgba(0, 0, 0, 0.2),rgba(255, 255, 255, 0.2));
+rgba(0, 0, 0, 0.2),rgba(255, 255, 255, 0.2));
   list-style-type: none;
   text-align: center;
   margin:16px;
@@ -30,12 +32,12 @@ li {
 }
 li a{
   color:white;
-  font-size: 16px;
+  font-size: 14px;
   font-family:'Courier New', Courier, monospace;
 }
 li a:hover{
   color:cyan;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   font-family:'Courier New', Courier, monospace;
 }
@@ -49,6 +51,7 @@ li a:hover{
 .intro p{
   text-align: center;
   color:white;
+  letter-spacing: 1px;
   font-size: 18px;
   font-family:'Courier New', Courier, monospace;
   margin-bottom: 4px;
@@ -57,21 +60,22 @@ li a:hover{
   display:flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: 16px;
-  margin-right: 16px;
   align-items: center;
 }
 .status p{
   color:rgb(245, 172, 89);
+  letter-spacing: 2px;
   font-size:14px;
   font-family:'Courier New', Courier, monospace;
 }
 .r-stars,.l-stars{
   color:rgb(245, 172, 89);
+  letter-spacing: 2px;
 }
 .highl p{
   text-align: center;
   color:white;
+  letter-spacing: 1px;
   font-size: 32px;
   font-family:'Courier New', Courier, monospace;
   margin-top: 16px;
@@ -80,6 +84,8 @@ li a:hover{
 .tip p{
   text-align: center;
   color:white;
+  letter-spacing: 1px;
+  font-style: italic;
   font-size: 14px;
   font-family:'Courier New', Courier, monospace;
   height:0px;
@@ -87,14 +93,14 @@ li a:hover{
 .column{
   float:left;
   width: 20%;
-  padding: 10px;
+  padding: 8px;
 }
 .column img{
-  border:4px inset rgb(255, 255, 255,0.5);
+  border:8px ridge rgb(255, 255, 255,0.5);
   cursor:pointer;
 }
 .column img:hover{
-  border:4px inset rgb(0, 255, 255,0.75);
+  border:8px ridge rgb(0, 255, 255,0.5);
 }
 .row{
   display:flex;
@@ -108,17 +114,20 @@ li a:hover{
 .container{
   position:relative;
   display:flex;
+  justify-content: center;
   flex-direction: column;
-  width:95%;
-  margin:16px;
+  width:auto;
+  margin-left:10%;
+  margin-right:10%;
 }
 .container img{
-  border:4px inset rgb(0, 255, 255,0.75);
+  border:16px ridge rgb(0, 255, 255,0.5);
 }
 #imgtext{
   text-align: center;
   color:white;
-  font-size: 14px;
+  letter-spacing: 1px;
+  font-size: 16px;
   font-family:'Courier New', Courier, monospace;
   padding:4px;
 }
