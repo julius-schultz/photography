@@ -7,14 +7,16 @@
 <title>Julius Schultz Photography</title>
 </head>
 <body>
-<div class="div-title"><h1>Julius Schultz Photography</h1></div>
+<div class="div-title"><h1>Julius&nbsp;Schultz Photography</h1></div>
 
 <ul>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="galery.asp">Gallery</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="about.asp">About</a></li>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+  <h2>Home</h2>
 </ul>
+
 
 <div class="div-intro">
   <div class="intro">
@@ -24,7 +26,7 @@
     <div class="l-stars">
       <p>&starf; &starf;</p></div>
     <div class="status">
-      <p>Under Construction</p></div>
+      <p>&nbsp;Under Construction&nbsp;</p></div>
     <div class="r-stars">
       <p>&starf; &starf;</p></div>
   </div>
@@ -32,36 +34,18 @@
 
 <div class="highl">
   <p>&dArr; August Highlights &dArr;</p></div>
-<div class="tip">
-  <p>Click on a thumbnail image to expand it.</p></div>
 
-<div class="row">
-  <div class="column">
-    <img src="Photos/DSC_0290.JPG" onclick="myFunction(this);" width="100%"
+<div class="div-hl-photos">
+    <img src="Photos/spotted_slug.JPG" onclick="myFunction(this);" width="100%"
       alt="A close-up of a beige slug with black spots on wet dirt, surrounded by some grass and wet orange leaves.">
-  </div> 
-      <div class="column">
-    <img src="Photos/DSC_0341.JPG" onclick="myFunction(this);" width="100%"
-      alt="A white abandoned lighthouse building with rocks, bushes and driftwood logs in the foreground, water and sky in the backgroud, on a cloudy, misty day.">
-  </div>
-      <div class="column">
-    <img src="Photos/DSC_0518.JPG" onclick="myFunction(this);" width="100%"
-      alt="Close-up of Lake Washington in the foreground, Mercer Island skyline and sailboats in the background, under a clear blue sky.">
-  </div>
-</div>
 
-<div class="container">
-  <div onclick="this.parentElemen.style.display='none'"></div>
-  <img id="expandedImg"style="width:100%">
-  <div id="imgtext"></div>
+    <img src="Photos/lighthouse_back.JPG" onclick="myFunction(this);" width="100%"
+      alt="A white abandoned lighthouse building with rocks, bushes and driftwood logs in the foreground, water and sky in the backgroud, on a cloudy, misty day.">
+
+
+    <img src="Photos/mercer_lakewa.JPG" onclick="myFunction(this);" width="100%"
+      alt="Close-up of Lake Washington in the foreground, Mercer Island skyline and sailboats in the background, under a clear blue sky.">
+      
 </div>
-<script> function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg");
-  var imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
-  imgText.innerHTML = imgs.alt;
-  expandImg.parentElement.style.display = "flex";
-}
-</script>
 </body>
 </html>
