@@ -1,0 +1,16 @@
+.div-photos{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+@media (max-width:800px){
+  .div-photos{
+    flex-direction: column;
+    width: 175%;
+  }
+}
+.div-photos img{
+  border:8px ridge rgb(255, 255, 255,0.5);
+  width: 20%;
+}

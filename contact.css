@@ -1,0 +1,27 @@
+.div-contact{
+  border:12px ridge rgba(255, 255, 255, 0.3);
+  background:linear-gradient(to top,
+    rgba(0, 0, 0, 0.2),rgba(255, 255, 255, 0.2));
+  height: 100%;
+  margin-top: .25%;
+}
+.div-contact ul{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom:2%;
+  margin-top: 2%;
+  text-align: center;
+  color:white;
+  letter-spacing: 1px;
+  font-size: 120%;
+  font-family:'Courier New', Courier, monospace;
+}
+.div-contact p{
+  margin-top: 0;
+}
+.div-contact li a:hover{
+  color:cyan;
+  font-size: 105%;
+  font-weight: 600;
+  font-family:'Courier New', Courier, monospace;
+}

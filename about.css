@@ -1,0 +1,17 @@
+.div-about {
+  border:12px ridge rgba(255, 255, 255, 0.3);
+  background:linear-gradient(to top,
+    rgba(0, 0, 0, 0.2),rgba(255, 255, 255, 0.2));
+  margin-top: .25%;
+}
+.about p{
+  text-align: center;
+  color:white;
+  letter-spacing: 1px;
+  line-height: 150%;
+  font-size: 120%;
+  font-family:'Courier New', Courier, monospace;
+  margin-left: 5%;
+  margin-right:5%;
+  margin-bottom: 2%;
+}
